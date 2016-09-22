@@ -1,2 +1,8 @@
-*~
-build
+/.git
+/.vs
+/x64
+/postgres-client.VC.db
+/postgres-client/x64
+/postgres-client/postgres-client.vcxproj.user
+/postgres-client-test/x64
+/postgres-client-test/postgres-client-test.vcxproj.user

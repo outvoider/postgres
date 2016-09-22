@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{2521716d-1270-49ed-a055-3f46e23e67a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{560fb6b5-b097-4f60-8583-509cbe1c291b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\optional">
+      <UniqueIdentifier>{c8f17d20-3091-446e-b633-7eb0ead0dd0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\postgres">
+      <UniqueIdentifier>{5e3407d0-5bb0-4e7e-a5d1-838222f92ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\seq">
+      <UniqueIdentifier>{e7b1d595-8ba2-46e3-97ca-fab746991405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utility">
+      <UniqueIdentifier>{cf401425-1cbf-424d-845a-4a6bf04798c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utility">
+      <UniqueIdentifier>{135cc937-3fcb-4b7d-9bd9-8297a0cf715a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\postgres">
+      <UniqueIdentifier>{cf945109-5f84-4723-8105-b1450854027c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\tao\utility\demangle.hpp">
+      <Filter>include\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\utility\getenv.hpp">
+      <Filter>include\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\utility\make_unique.hpp">
+      <Filter>include\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\utility\pool.hpp">
+      <Filter>include\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\utility\printf.hpp">
+      <Filter>include\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\utility\strtox.hpp">
+      <Filter>include\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\seq\config.hpp">
+      <Filter>include\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\seq\exclusive_scan.hpp">
+      <Filter>include\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\seq\integer_sequence.hpp">
+      <Filter>include\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\seq\make_integer_sequence.hpp">
+      <Filter>include\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\seq\partial_sum.hpp">
+      <Filter>include\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\seq\sum.hpp">
+      <Filter>include\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\connection.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\connection_pool.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\field.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\null.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\parameter_traits.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\result.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\result_traits.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\result_traits_optional.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\result_traits_pair.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\result_traits_tuple.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\row.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\table_writer.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\postgres\transaction.hpp">
+      <Filter>include\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tao\optional\optional.hpp">
+      <Filter>include\optional</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\postgres\connection.cpp">
+      <Filter>source\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="src\postgres\connection_pool.cpp">
+      <Filter>source\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="src\postgres\field.cpp">
+      <Filter>source\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="src\postgres\parameter_traits.cpp">
+      <Filter>source\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="src\postgres\result.cpp">
+      <Filter>source\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="src\postgres\result_traits.cpp">
+      <Filter>source\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="src\postgres\row.cpp">
+      <Filter>source\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="src\postgres\table_writer.cpp">
+      <Filter>source\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="src\postgres\transaction.cpp">
+      <Filter>source\postgres</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\demangle.cpp">
+      <Filter>source\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\getenv.cpp">
+      <Filter>source\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\printf.cpp">
+      <Filter>source\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\strtox.cpp">
+      <Filter>source\utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
